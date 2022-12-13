@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+	text-decoration: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 60px;
+	width: 800px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.container h2 {
+	font-size: 20px;
+	width: 500px;
+	margin: auto;
+	position: relative;
+	text-align: left;
+	font-family: cooper black;
+}
+
+.container h3 {
+	font-size: 15px;
+	margin: auto;
+	position: relative;
+	text-align: left;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	font-size: 15px;
+	width: 1100px;
+	margin: auto;
+	position: relative;
+}
+
+.header {
+	font-size: 15px;
+	margin: auto;
+	position: relative;
+}
+
+.footer {
+	font-size: 15px;
+	margin: auto;
+	position: relative;
+}
+
+.quote a {
+	font-size: 50px;
+	font-weight: 800;
+	float: center;
+	font-family: cooper black;
+	font-size: 15px;
+	margin: auto;
+	position: relative;
+	color: white;
+}
+
+.logo a {
+	font-size: 50px;
+	font-weight: 800;
+	float: left;
+	text-align: left;
+	font-family: cooper black;
+	color: white;
+}
+
+.container {
+	display: flex;
+	height: 460px;
+	align-items: center;
+	justify-content: center;
+	font-weight: 700;
+}
+
+.login-form {
+	height: 250px;
+	width: 215px;
+	padding: 150px 35px;
+	background-color: lightgrey;
+	border: none;
+}
+
+.card-body {
+	background-color: white;
+	border: none;
+	height: 250px;
+	width: 215px;
+	background-color: lightgrey;
+	padding: 40px 60px 40px 60px;
+	border-radius: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+	border-radius: 0px;
+}
+
+
+.menu {
+	float: right
+}
+
+header {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	position: relative;
+	line-height: 97px;
+	background: #5271FF;
+}
+
+footer {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	position: relative;
+	line-height: 98px;
+	background: #5271FF;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	display: flex;
+	position: relative;
+	line-height: 120px;
+	top: 0;
+	background: #5271FF;
+}
+
+nav ul {
+	list-style-tape: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 15px 10px 15px;
+}
+
+nav ul li a:hover {
+	text-decoration: underline;
+	margin-top: 20px;
+	padding: 50px 15px 50px 15px;
+	color: white;
+}
+
+.active a {
+	color: white;
+	background-color: #708AFF;
+	font-weight: bold;
+	text-align: center;
+	padding: 50px 15px 50px 15px;
+}
+
+section {
+	margin: auto;
+	text-align: center;
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.logoberanda h1 {
+	font-family: cooper black;
+	font-weight: 900;
+	font-size: 35px;
+	position: relative;
+	color: black;
+}
+
+.logoberanda img {
+	width: 40%;
+	margin-top: ;
+
+}
+
+
+.logoberanda2 h1 {
+	font-size: 75px;
+	width: 800px;
+	margin: auto;
+	position: relative;
+	text-align: left;
+	font-family: cooper black;
+	font-weight: 900;
+	color: black;
+}
+
+.logoberanda2 p {
+	text-align: left;
+	float: left;
+	font-size: 20px;
+	font-family: comic sans ms;
+}
+
+.logoberanda2 a {
+	text-align: left;
+	float: left;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 5px 10px 5px 10px;
+	background-color: #5271FF;
+	color: white;
+}
+
+.logoberanda2 a:hover {
+	text-align: left;
+	font-size: 18px;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 5px 10px 5px 10px;
+	background-color: #1A39C8;
+	color: white;
+}
+
+.logoberanda2 img {
+	text-align: left;
+	position: left;
+	width: 180%;
+	margin-left: -50px;
+	margin-top: 63px;
+}
+
+.teksberanda {
+	font-family: 'comic sans ms';
+	font-weight: 300;
+	font-size: 15px;
+	position: relative;
+	text-align: center;
+	margin: auto;
+	color: black;
+}
+
+
+.teksberanda button {
+	color: white;
+	background-color: green;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 20px;
+	padding: 10px 15px 10px 15px;
+	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
